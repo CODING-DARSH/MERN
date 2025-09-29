@@ -9,6 +9,9 @@ import { Mapdemo1 } from './components/Mapdemo1'
 import { Mapdemo3 } from './components/Mapdemo3'
 import { Mapdemo4 } from './components/Mapdemo4'
 import { Mapdemo5 } from './components/Mapdemo5'
+import { Statedemo1 } from './components/Statedemo1'
+import { Statedemo2 } from './components/Statedemo2'
+import { Statedemo3 } from './components/Statedemo3'
 // import './App.css'
 
 function App() {
@@ -22,7 +25,10 @@ function App() {
     {/* <Content></Content> */}
     {/* <Mapdemo3></Mapdemo3> */}
     {/* <Mapdemo4></Mapdemo4> */}
-    <Mapdemo5></Mapdemo5>
+    {/* <Mapdemo5></Mapdemo5> */}
+    {/* <Statedemo1></Statedemo1> */}
+    {/* <Statedemo2></Statedemo2> */}
+    <Statedemo3></Statedemo3>
   <Footer></Footer>
 
   </div>
