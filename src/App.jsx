@@ -15,6 +15,13 @@ import { Statedemo3 } from './components/Statedemo3'
 import { Inputdemo1 } from './components/Inputdemo1'
 import { Inputdemo2 } from './components/Inputdemo2'
 import { Inputdemo3 } from './components/Inputdemo3'
+import { Navbar } from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import { NetflixHome } from './Netflix/NetflixHome'
+import { NetflixMovies } from './Netflix/NetflixMovies'
+import { NetflixShow } from './Netflix/NetflixShow'
+import { Error404 } from './components/Error404'
+
 // import './App.css'
 
 function App() {
@@ -22,21 +29,13 @@ function App() {
   
   return (
   <div>
-    <Header></Header>
-    {/* <Mapdemo1></Mapdemo1> */}
-    {/* <Mapdemo2></Mapdemo2> */}
-    {/* <Content></Content> */}
-    {/* <Mapdemo3></Mapdemo3> */}
-    {/* <Mapdemo4></Mapdemo4> */}
-    {/* <Mapdemo5></Mapdemo5> */}
-    {/* <Statedemo1></Statedemo1> */}
-    {/* <Statedemo2></Statedemo2> */}
-    {/* <Statedemo3></Statedemo3> */}
-    {/* <Inputdemo1></Inputdemo1> */}
-    {/* <Inputdemo2>?</Inputdemo2> */}
-    <Inputdemo3></Inputdemo3>
-  <Footer></Footer>
-
+<Navbar></Navbar>
+  <Routes>
+    <Route path='/netflixhome' element={<NetflixHome/>}></Route>
+    <Route path='/netflixmovies' element={<NetflixMovies/>}></Route>
+    <Route path='/netflixshow' element={<NetflixShow/>}></Route>
+    <Route path='/*' element={<Error404/>}></Route>
+  </Routes>
   </div>
   )
 }

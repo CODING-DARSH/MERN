@@ -5,18 +5,11 @@ export const Inputdemo3 = () => {
 
     const getDateLabel = (date)=>{
         //today's date..
-        const today = new Date() // today's date...
-        const choosenDate = new Date(date) //convert string to date..
+        const today = new Date() 
+        const choosenDate = new Date(date) 
 
         today.setHours(0,0,0,0)
         choosenDate.setHours(0,0,0,0)
-
-        //diff
-        //(1000*60*60*24)
-        //1000 ms
-        // 60 sec
-        //60 min
-        //24 hours
         const diffDays = Math.round((choosenDate.getTime()-today.getTime())/(1000*60*60*24))
         console.log(diffDays)
 
