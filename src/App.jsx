@@ -23,6 +23,8 @@ import { NetflixShow } from './Netflix/NetflixShow'
 import { Error404 } from './components/Error404'
 import { Watch } from './Netflix/Watch'
 import { Users } from './components/Users'
+import { Employee } from './components/Employee'
+import { Student } from './components/Student'
 
 // import './App.css'
 
@@ -40,6 +42,8 @@ function App() {
     <Route path='/watch/:name' element={<Watch/>}></Route>
     <Route path='/*' element={<Error404/>}></Route>
     <Route path='/users' element={<Users/>}></Route>
+    <Route path='/employee' element={<Employee/>}></Route>
+    <Route path='/student' element={<Student/>}></Route>
   </Routes>
   </div>
   )

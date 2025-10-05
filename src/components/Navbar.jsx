@@ -32,6 +32,16 @@ export const Navbar = (props) => {
                Userlist
               </Link>
       </li>
+              <li class="nav-item">
+              <Link class="nav-link" to="/employee">
+               Employee
+              </Link>
+              </li>
+              <li>
+              <Link class="nav-link" to="/student">
+               Student
+              </Link>
+              </li>
     </ul>
   </div>
 </nav>
