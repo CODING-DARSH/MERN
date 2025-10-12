@@ -1,5 +1,6 @@
 import React from 'react'
 import { UserList } from './UserList'
+import { MyButton } from '../common/MyButton'
 
 export const Users = () => {
   var data="User Data"
@@ -11,6 +12,7 @@ export const Users = () => {
 
     return (
     <div style={{textAlign:"center"}}>
+      <MyButton name='usertest' className=''></MyButton>
         <UserList data={data} user={user}></UserList>
     </div>
   )
