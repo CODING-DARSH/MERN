@@ -23,7 +23,7 @@ export const StudentList = (props) => {
                                 <td>{student.name}</td>
                                 <td>{student.branch}</td>
                                 <td>{student.age}</td>
-                                 <button onClick={() => props.info(student.id)}>Info</button>
+                                <td> <button onClick={() => props.info(student.id)}>Info</button></td>
                             </tr>
                         );
                     })

@@ -37,11 +37,17 @@ export const Navbar = (props) => {
                Employee
               </Link>
               </li>
-              <li>
+              <li class="nav-item">
               <Link class="nav-link" to="/student">
                Student
               </Link>
               </li>
+              <li class="nav-item">
+              <Link className="nav-link" to="/book">
+               Books
+              </Link>
+              </li>
+              
     </ul>
   </div>
 </nav>
