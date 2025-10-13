@@ -47,6 +47,11 @@ export const Navbar = (props) => {
                Books
               </Link>
               </li>
+              <li class="nav-item">
+              <Link className="nav-link" to="/table">
+               Table
+              </Link>
+              </li>
               
     </ul>
   </div>

@@ -26,6 +26,7 @@ import { Users } from './components/Users'
 import { Employee } from './components/Employee'
 import { Student } from './components/Student'
 import { Books } from './components/Books'
+import { Tabledemo1 } from './components/Tabledemo1'
 
 // import './App.css'
 
@@ -46,6 +47,7 @@ function App() {
     <Route path='/employee' element={<Employee/>}></Route>
     <Route path='/student' element={<Student/>}></Route>
     <Route path='/book' element={<Books/>}></Route>
+    <Route path='/table' element={<Tabledemo1/>}></Route>
   </Routes>
   </div>
   )
