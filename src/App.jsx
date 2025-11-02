@@ -27,6 +27,10 @@ import { Employee } from './components/Employee'
 import { Student } from './components/Student'
 import { Books } from './components/Books'
 import { Tabledemo1 } from './components/Tabledemo1'
+import { FormsDemo1 } from './forms/FormsDemo1'
+import { FormsDemo2 } from './forms/FormsDemo2'
+import { FormDemo3 } from './forms/FormDemo3'
+import { FormsDemo4 } from './forms/FormsDemo4'
 
 // import './App.css'
 
@@ -48,6 +52,10 @@ function App() {
     <Route path='/student' element={<Student/>}></Route>
     <Route path='/book' element={<Books/>}></Route>
     <Route path='/table' element={<Tabledemo1/>}></Route>
+    <Route path='/formdemo1' element={<FormsDemo1/>}></Route>
+    <Route path='/formdemo2' element={<FormsDemo2/>}></Route>
+    <Route path='/formdemo3' element={<FormDemo3/>}></Route>
+    <Route path='/formdemo4' element={<FormsDemo4/>}></Route>
   </Routes>
   </div>
   )

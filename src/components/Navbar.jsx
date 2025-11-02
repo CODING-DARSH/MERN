@@ -12,7 +12,7 @@ export const Navbar = (props) => {
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item active">
+      {/* <li class="nav-item active">
               <Link class="nav-link" to="/netflixhome">
                 Netflix Home 
               </Link>
@@ -51,7 +51,28 @@ export const Navbar = (props) => {
               <Link className="nav-link" to="/table">
                Table
               </Link>
+              </li> */}
+              <li class="nav-item">
+              <Link className="nav-link" to="/formdemo1">
+               FormDemo1
+              </Link>
               </li>
+              <li class="nav-item">
+              <Link className="nav-link" to="/formdemo2">
+               FormDemo2
+              </Link>
+              </li>
+              <li class="nav-item">
+              <Link className="nav-link" to="/formdemo3">
+               FormDemo3
+              </Link>
+              </li>
+              <li class="nav-item">
+              <Link className="nav-link" to="/formdemo4">
+               FormDemo4
+              </Link>
+              </li>
+              
               
     </ul>
   </div>
