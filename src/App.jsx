@@ -31,6 +31,8 @@ import { FormsDemo1 } from './forms/FormsDemo1'
 import { FormsDemo2 } from './forms/FormsDemo2'
 import { FormDemo3 } from './forms/FormDemo3'
 import { FormsDemo4 } from './forms/FormsDemo4'
+import { FormsDemo5 } from './forms/FormsDemo5'
+import { FormsDemo6 } from './forms/FormsDemo6'
 
 // import './App.css'
 
@@ -56,6 +58,8 @@ function App() {
     <Route path='/formdemo2' element={<FormsDemo2/>}></Route>
     <Route path='/formdemo3' element={<FormDemo3/>}></Route>
     <Route path='/formdemo4' element={<FormsDemo4/>}></Route>
+    <Route path='/formdemo5' element={<FormsDemo5/>}></Route>
+    <Route path='/formdemo6' element={<FormsDemo6/>}></Route>
   </Routes>
   </div>
   )
