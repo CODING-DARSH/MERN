@@ -33,6 +33,8 @@ import { FormDemo3 } from './forms/FormDemo3'
 import { FormsDemo4 } from './forms/FormsDemo4'
 import { FormsDemo5 } from './forms/FormsDemo5'
 import { FormsDemo6 } from './forms/FormsDemo6'
+import { OmdbApi } from './api/OmdbApi'
+import { MoviesDetail } from './api/MoviesDetail'
 
 // import './App.css'
 
@@ -59,7 +61,9 @@ function App() {
     <Route path='/formdemo3' element={<FormDemo3/>}></Route>
     <Route path='/formdemo4' element={<FormsDemo4/>}></Route>
     <Route path='/formdemo5' element={<FormsDemo5/>}></Route>
-    <Route path='/formdemo6' element={<FormsDemo6/>}></Route>
+    {/* <Route path='/formdemo6' element={<FormsDemo6/>}></Route> */}
+    <Route path='/omdbapi' element={<OmdbApi/>}></Route>
+    <Route path='/moviedetail' element={<MoviesDetail/>}></Route>
   </Routes>
   </div>
   )
